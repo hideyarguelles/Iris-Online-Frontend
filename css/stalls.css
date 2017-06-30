@@ -1,4 +1,4 @@
-/* This is the CSS for the stall list. */
+/* This is the CSS for the stall list and their products. */
 
 #content {
     margin: 49px;
@@ -13,7 +13,7 @@
 }
 
 #product-showcase {
-    margin-left: 350px;
+    margin-left: 345px;
     display: flex;
     flex-wrap: wrap;
 }
