@@ -1,0 +1,31 @@
+/* This is the CSS for the stall list. */
+
+#content {
+    margin: 49px;
+}
+
+#stall-list, .product, .product-image, .product-description, .add {
+    width: 300px;
+}
+
+#stall-list {
+    position: fixed;
+}
+
+#product-showcase {
+    margin-left: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 5px;
+}
+
+.card-img-top {
+    max-height: 400px;
+    max-width: 400px;
+    min-height: 400px;
+    height: auto;
+    width: auto;
+}

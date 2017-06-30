@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iris Online</title>
+
+    <!-- Bootstrap 4 Alpha and JQuery CDNs -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous">
+    </script>
+
+    <!-- Custom CSS go here -->
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/stalls.css">
+
+    <!-- Custom JS go here -->
+
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-toggleable-md navbar-full" id="nav-main">
+    <button class="navbar-toggler navbar-toggler-right"
+            type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Logo -->
+    <a class="navbar-brand col-sm-2" id="logo">STRINGS MANILA</a>
+
+    <!-- Search Bar -->
+    <!-- I'm assuming this needs an 'enter' pressing detector? -->
+    <div class="collapse navbar-collapse col-8 input-group" id="navbarSupportedContent">
+        <form class="form-group row my-2 my-lg-0 col-12" id="searchbar">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+
+    <!-- User-related Items -->
+    <a id="shopping-cart" href="#">
+        <div>
+            <img src="../img/cart.png" id="cart-image" draggable="false">
+        </div>
+    </a>
+    <div id="user-div">
+        <a href="#">Sign Out, Katie</a>
+    </div>
+</nav>
+
+<!-- Content -->
+<div id="content">
+    <!-- Stalls -->
+    <section id="stall-list">
+        <!-- Items to be retrieved by the database -->
+        <ul class="list-group">
+            <li class="list-group-item active">Bon Apple</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+    </section>
+
+    <!-- Products of the Selected Stall -->
+    <section id="product-showcase">
+        <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="../img/dave.jpg" alt="No product image" draggable="false">
+            <div class="card-block">
+                <h4 class="card-title">Dave Gilmour</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <!-- Div goes here -->
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="../img/george.jpg" alt="No product image" draggable="false">
+            <div class="card-block">
+                <h4 class="card-title">George Harrison</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <!-- Div goes here -->
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="../img/jimi.jpg" alt="No product image" draggable="false">
+            <div class="card-block">
+                <h4 class="card-title">Jimi Hendrix</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <!-- Div goes here -->
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+</body>
+</html>
