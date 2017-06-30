@@ -1,2 +1,6 @@
 /* This is the CSS for the navigation bar. */
 
+#logo {
+    text-align: center;
+    margin-right: 0;
+}
