@@ -1,7 +1,12 @@
 // This is the JS for the stalls and products.
 
-$(document).ready(function () {
-    $(".list-group>li").on("hover", function () {
-        $(this).css("cursor", "pointer");
+(function ($) {
+
+    $('.spinner .btn:first-of-type').on('click', function() {
+        $('.spinner input').val( parseInt($('.spinner input').val(), 10) + 1);
     });
-});
+    $('.spinner .btn:last-of-type').on('click', function() {
+        $('.spinner input').val( parseInt($('.spinner input').val(), 10) - 1);
+    });
+
+})(jQuery);
