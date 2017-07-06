@@ -4,12 +4,17 @@
     margin : 49px;
 }
 
-#stall-list, .product, .product-image, .product-description, .add {
+#content > div {
+    position : fixed;
+}
+
+#stall-list, .product, .product-image, .product-description, .add, h3 {
     width : 300px;
 }
 
 #stall-list {
-    position : fixed;
+    max-height : 600px;
+    overflow-y : scroll;
 }
 
 #product-showcase {
