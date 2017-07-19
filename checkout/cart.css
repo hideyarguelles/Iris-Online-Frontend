@@ -1,0 +1,24 @@
+/* This is the CSS for the cart page*/
+
+#content {
+    margin  : 60px;
+    padding : 60px;
+}
+
+#items-table {
+    margin-top : 35px;
+}
+
+#options {
+    display : flex;
+    margin  : auto;
+}
+
+#options > form {
+    margin-top   : 30px;
+    margin-right : 10px;
+}
+
+#cart-top {
+    display : flex;
+}
